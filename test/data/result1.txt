@@ -1,0 +1,40 @@
+ValidationResult
+    { messages =
+        [ Message
+            { type_ = Just "error"
+            , subType = Nothing
+            , message = Just "The character encoding was not declared. Proceeding using \8220windows-1252\8221."
+            , extract = Nothing
+            , firstLine = Nothing
+            , firstColumn = Nothing
+            , lastLine = Nothing
+            , lastColumn = Nothing
+            , hiliteStart = Nothing
+            , hiliteLength = Nothing
+            }
+        , Message
+            { type_ = Just "error"
+            , subType = Nothing
+            , message = Just "Element \8220head\8221 is missing a required instance of child element \8220title\8221."
+            , extract = Just "ml>\n<html>\n    <body>Hello,"
+            , firstLine = Just 2
+            , firstColumn = Just 7
+            , lastLine = Just 3
+            , lastColumn = Just 10
+            , hiliteStart = Just 10
+            , hiliteLength = Just 11
+            }
+        , Message
+            { type_ = Just "info"
+            , subType = Just "warning"
+            , message = Just "Consider adding a \8220lang\8221 attribute to the \8220html\8221 start tag to declare the language of this document."
+            , extract = Just "TYPE html>\n<html>\n    <"
+            , firstLine = Just 1
+            , firstColumn = Just 16
+            , lastLine = Just 2
+            , lastColumn = Just 6
+            , hiliteStart = Just 10
+            , hiliteLength = Just 7
+            }
+        ]
+    }

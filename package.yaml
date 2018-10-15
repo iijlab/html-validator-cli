@@ -21,6 +21,16 @@ description:         Please see the README on GitHub at <https://github.com/iij-
 
 dependencies:
 - base >= 4.7 && < 5
+- aeson
+- ansi-terminal
+- bytestring
+- directory
+- doctest
+- filepath
+- http-conduit
+- hspec
+- text
+- utf8-string
 
 library:
   source-dirs: src
@@ -46,3 +56,18 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - html-validator-cli
+
+  html-validator-cli-doctest:
+    main:                doctest-driver.hs
+    source-dirs:         test/doctest
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - html-validator-cli
+
+data-dir: test/data
+data-files:
+- "*.json"
+- "*.txt"

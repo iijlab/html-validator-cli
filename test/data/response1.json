@@ -1,0 +1,31 @@
+{
+  "messages": [
+    {
+      "type": "error",
+      "message": "The character encoding was not declared. Proceeding using “windows-1252”."
+    },
+    {
+      "type": "error",
+      "lastLine": 3,
+      "firstLine": 2,
+      "lastColumn": 10,
+      "firstColumn": 7,
+      "message": "Element “head” is missing a required instance of child element “title”.",
+      "extract": "ml>\n<html>\n    <body>Hello,",
+      "hiliteStart": 10,
+      "hiliteLength": 11
+    },
+    {
+      "type": "info",
+      "lastLine": 2,
+      "firstLine": 1,
+      "lastColumn": 6,
+      "firstColumn": 16,
+      "subType": "warning",
+      "message": "Consider adding a “lang” attribute to the “html” start tag to declare the language of this document.",
+      "extract": "TYPE html>\n<html>\n    <",
+      "hiliteStart": 10,
+      "hiliteLength": 7
+    }
+  ]
+}
