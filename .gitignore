@@ -1,3 +1,5 @@
 .stack-work/
 html-validator-cli.cabal
 *~
+
+tmp/
