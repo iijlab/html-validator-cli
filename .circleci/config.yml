@@ -2,9 +2,12 @@ version: 2
 jobs:
   build:
     docker:
-      - image: haskell:8
+      - image: debian:stretch
     steps:
       - checkout
       - run:
-          name: Test
+          name: Install Stack
+          command: curl -sSL https://get.haskellstack.org/ | sh
+      - run:
+          name: Run test
           command: stack test
