@@ -6,5 +6,8 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Upgrade Stack
+          command: stack upgrade
+      - run:
           name: Run test
           command: stack test
