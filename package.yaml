@@ -24,7 +24,7 @@ dependencies:
 - aeson
 - ansi-terminal
 - bytestring
-- directory
+- directory >= 1.2.5
 - doctest
 - filepath
 - http-conduit
