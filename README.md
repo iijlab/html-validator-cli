@@ -23,6 +23,24 @@ TYPE html> <html>     <
           ^^^^^^^
 ```
 
+## Installation
+
+### Prerequisites
+
+Make sure you have a fresh version of [Stack](https://docs.haskellstack.org/en/stable/README/) or [Cabal](https://www.haskell.org/cabal/) installed.
+
+### Installation
+
+```sh
+stack update
+stack install html-validator-cli
+```
+or
+```sh
+cabal update
+cabal install html-validator-cli
+```
+
 ## Usage
 
 ```
