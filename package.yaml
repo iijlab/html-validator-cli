@@ -2,7 +2,7 @@ name:                html-validator-cli
 version:             0.1.0.3
 github:              "iij-ii/html-validator-cli"
 license:             BSD3
-author:              "Kezno Yotsuya"
+author:              "Kenzo Yotsuya"
 maintainer:          "kyotsuya@iij-ii.co.jp"
 copyright:           "2018 Kenzo Yotsuya"
 
