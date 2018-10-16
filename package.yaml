@@ -11,7 +11,7 @@ extra-source-files:
 - ChangeLog.md
 
 # Metadata used when publishing your package
-synopsis:            Command Line Interface for https://validator.w3.org/
+synopsis:            A command-line interface for https://validator.w3.org/
 category:            Web
 
 # To avoid duplicated efforts in documentation and dealing with the
