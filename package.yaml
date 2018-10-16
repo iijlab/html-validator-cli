@@ -4,7 +4,7 @@ github:              "iij-ii/html-validator-cli"
 license:             BSD3
 author:              "Kenzo Yotsuya"
 maintainer:          "kyotsuya@iij-ii.co.jp"
-copyright:           "2018 Kenzo Yotsuya"
+copyright:           "IIJ Innovation Institute Inc."
 
 extra-source-files:
 - README.md
