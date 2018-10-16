@@ -1,5 +1,9 @@
 # Changelog for html-validator-cli
 
+## 0.1.0.5 (2018-10-16)
+
+- Modify package meta data.
+
 ## 0.1.0.4 (2018-10-16)
 
 - Fix a typo.
