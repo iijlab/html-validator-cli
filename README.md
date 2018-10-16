@@ -2,7 +2,7 @@
 
 Command Line Interface for [The W3C Markup Validation Service](https://validator.w3.org/)
 
-```sh
+```
 $ cat /var/www/html/index.html
 <!DOCTYPE html>
 <html>
