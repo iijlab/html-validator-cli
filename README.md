@@ -44,7 +44,7 @@ cabal install html-validator-cli
 ## Usage
 
 ```
-Usage: validatehtml [-u URL] [-x DIR] FILE | DIR ...
+Usage: validatehtml [-s URL] [-x DIR] FILE | DIR ...
   -s URL  --validator-url=URL  validation service url (default: https://validator.w3.org/nu/)
   -x DIR  --exclude=DIR        exclude files in DIR
   -1      --oneline            print each message on one line
