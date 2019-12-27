@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: haskell:8.0
+      - image: haskell:8
     steps:
       - checkout
       - run:
